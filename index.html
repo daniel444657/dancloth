@@ -1,0 +1,1152 @@
+<!-- HTML
+Hypertext Mackup Language
+
+
+tag: a tag is the syntax for declearing an element and also for closing and element  < tag name > </ tag name > < self closing tag name />
+
+Element: an element a container that has an opening tag and a closing tag  
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <script type="text/javascript" src="index/js"></script>
+
+    <title>DanClothes</title>
+  </head>
+
+  <body
+  style="background-color: black;
+  width: 95vw;
+  margin: auto;
+  height: 100vh;
+  ">
+    <!--   CSS  cascading style sheet -->
+
+    <section
+      style="
+        width: 90%;
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+        gap: 25%;
+        /* padding-top: 10%; */
+        margin: auto;
+      "
+    >
+      <div
+        style="
+          width: 15%;
+          height: 60%;
+          object-fit: cover;
+          gap: 2%;
+          display: flex;
+          flex-direction: row;
+          padding-top: 10px;
+          border-bottom: 0.05px solid lightgrey;
+        "
+      >
+        <input
+          type="search"
+        
+          name="search"
+          placeholder="Search anything..."
+          style="width: 88%; border: none; background-color: black;"
+        />
+
+        <img
+          src="images/search-icon-png-18.png"
+          alt=""
+          style="width: 10%; height: 40%; padding: 20px"
+        />
+      </div>
+
+      <div
+        style="
+          width: 10%;
+          height: 20%;
+          object-fit: cover;
+          gap: 10px;
+          margin-left: 60px;
+        "
+      >
+        <h4
+          style="
+            font-family: Bahnschrift;
+            font-size: 35px;
+            color: rgb(255, 255, 255);
+          "
+        >
+          DanClothes
+        </h4>
+        <!-- <img src="images/im5.JPG" alt="" style="width: 100%;height: 100%; gap.10px,"> -->
+      </div>
+
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          height: 50%;
+          width: 18%;
+          gap: 3%;
+          padding: 20px;
+        "
+      >
+        <select
+          name="lang"
+          id="lang"
+          style="width: 25%; border: 0.05px solid lightgrey; border-radius: 5px"
+        >
+          <option value="eng">English</option>
+          <option value="igbo">Igbo</option>
+          <option value="yourba">Yoruba</option>
+          <option value="hause">Hause</option>
+        </select>
+
+        <select
+          style="width: 20%; border: 0.05px solid lightgrey; border-radius: 5px"
+        >
+          <option value="ngn">NGN</option>
+          <option value="usd">USD</option>
+          <option value="gbp">GBP</option>
+        </select>
+
+        <div style="width: 10%; height: 80%; object-fit: cover; padding: 10px">
+          <img
+            src="images/avatar.png"
+            alt="userprofit"
+            style="
+              width: 90%;
+              height: 80%;
+              border: 2px solid grey;
+              border-radius: 50%;
+            "
+          />
+        </div>
+
+        <div style="width: 10%; height: 70%; object-fit: cover; padding: 10px">
+          <img
+            src="images/notification-bell-icon.png"
+            alt="notification-bell-"
+            style="
+              width: 70%;
+              height: 80%;
+              border: 0px solid rgb(255, 255, 255);
+              border-radius: 50%;
+              box-shadow: 2px grey;
+
+            "
+          />
+        </div>
+      </div>
+    </section>
+
+    <!--
+         boxes
+         -->
+    <nav
+      style="
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+        gap: 20%;
+        margin: auto;
+      "
+    >
+      <!-- ================================================navbar parent div opening===================================================== -->
+      <div
+        style="
+          width: 50%;
+          height: 100%;
+          display: flex;
+          flex-direction: row;
+          color: black;
+          gap: 40px;
+          padding: 20px;
+          margin: auto;
+        "
+      >
+        <!-- ====================================================navbar parent div opening========================================================== -->
+
+        <!--to add attribute to an element is should be at the opening tag of the element-->
+
+        <!-- ========================================first navbar item opens here=============================================== -->
+        <div
+          style="
+            width: 20%;
+            height: 100%;
+            text-align: center;
+            border: 0px solid lightgrey;
+            padding: 0px 20px;
+            gap: 50px;
+          "
+        >
+          <!-- ===========================================first navbar item opens here================================================================ -->
+          <a href="assign.html">Brands</a>
+        </div>
+
+        <div
+          style="
+            width: 20%;
+            height: 100%;
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+            border: 0px solid lightgrey;
+            padding: 0px 20px;
+            gap: 30%;
+            color: rgb(255, 255, 255);
+          "
+        >
+          <a href="assign.html">Men</a>
+        </div>
+
+        <div
+          style="
+            width: 20%;
+            height: 100%;
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+            border: 0px solid lightgrey;
+            padding: 0px 20px;
+            gap: 30%;
+            color: rgb(255, 255, 255);
+
+          "
+        >
+          <a href="assign.html">Woman</a>
+        </div>
+
+        <div
+          style="
+            width: 20%;
+            height: 100%;
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+            border: 0px solid lightgrey;
+            padding: 0px 20px;
+            gap: 30px;
+          "
+        >
+          <a href="assign.html">Unisex</a>
+        </div>
+
+        <div
+          style="
+            width: 20%;
+            height: 100%;
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+            border: 0px solid lightgrey;
+            padding: 0px 20px;
+            gap: 30%;
+          "
+        >
+          <a href="assign.html">Kids</a>
+        </div>
+        <!-- ======================================this is the closing div of the navbar container========================================================================================= -->
+      </div>
+      <!-- ============================================this is the closing div of the navbar containe========================================================================================== -->
+    </nav>
+
+
+
+
+
+    <div class="featured">
+      <!-- ==================================opening div for featured product=========================== -->
+      
+      <h2
+      style="text-align: center;">
+      New Arrivals
+    
+    </h2>
+      <div class="featuredtop">
+        <!--============================opening featuredtop tag==============================  -->
+      <div
+      
+      
+      style="width: 18%; height: 100%; flex-direction: column; display: flex; background-color: #800000; border-radius: 5px; border: 0.05px solid rgb(43, 238, 43);">
+      
+      
+      <img src="images/lady.jpg" alt=""
+      style="width: 90%; height: 70%; margin: auto; padding: 5px; object-fit: cover; border-radius: 10px; ">
+      
+      <h3
+      style="color: rgb(7, 228, 25);text-align: center;">
+      
+        lady wear avaliable
+      
+      </h3>
+      
+      </div>
+      
+      
+      
+      
+      <div
+      style="width: 18%; height: 100%; flex-direction: column; display: flex; background-color: #006400; border-radius: 5px; border: 0.05px solid rgb(43, 238, 43);">
+      <img src="images/guy.webp" alt=""
+      style="width: 90%; height: 70%; margin: auto; padding: 5px; object-fit: cover; border-radius: 10px; ">
+      
+      <h3
+      style="color: rgb(43, 238, 43);text-align: center;">
+      
+        suit for men only
+      
+      </h3>
+      
+      </div>
+      
+      <div
+      style="width: 18%; height: 100%; flex-direction: column; display: flex; background-color: rgb(83, 76, 190); border-radius: 5px; border: 0.o5px solid green;">
+      <img src="images/clothe.jpg" alt=""
+      style="width: 90%; height: 70%; margin: auto; padding: 5px; object-fit: cover; border-radius: 10px; ">
+      
+      <h3
+      style="color: rgb(6, 63, 49);text-align: center;">
+      
+        men wear
+      
+      </h3>
+      
+      </div>
+      <div
+      style="width: 18%; height: 100%; flex-direction: column; display: flex; background-color: rgb(233, 126, 135); border-radius: 5px; border: 0.o5px solid green;">
+      <img src="images/guy.webp" alt=""
+      style="width: 90%; height: 70%; margin: auto; padding: 5px; object-fit: cover; border-radius: 10px; ">
+      
+      <h3
+      style="color: rgb(6, 63, 49);text-align: center;">
+      
+        suit unisex
+      
+      </h3>
+      
+      </div>
+      
+      <div
+      style="width: 18%; height: 100%; flex-direction: column; display: flex; background-color: rgb(20, 63, 180); border-radius: 5px; border: 0.o5px solid green;">
+      <img src="images/clothe.jpg" alt=""
+      style="width: 90%; height: 70%; margin: auto; padding: 5px; object-fit: cover; border-radius: 10px; ">
+      
+      <h3
+      style="color: rgb(6, 63, 49);text-align: center;">
+      
+        nike wears
+      
+      </h3>
+      
+      
+      </div>
+      
+      <div
+      style="width: 18%; height: 100%; flex-direction: column; display: flex; background-color: rgb(30, 226, 105); border-radius: 5px; border: 0.o5px solid green;">
+      <img src="images/lady.jpg" alt=""
+      style="width: 90%; height: 70%; margin: auto; padding: 5px; object-fit: cover; border-radius: 10px; ">
+      
+      <h3
+      style="color: rgb(6, 63, 49);text-align: center;">
+      
+        lady wear avaliable
+      
+      </h3>
+      
+      </div>
+        <!--============================== closing featuredtop tag======================================  -->
+      </div>
+      
+    </div>
+
+
+    <!-- ======================================this is the opening div of the storetop container========================================================================================= -->
+    <div class="storetop">
+
+
+      <div
+        class="item"
+        style="
+          width: 24%;
+          height: 90%;
+          display: flex;
+          flex-direction: column;
+          border: 0.05px solid green;
+          border-radius: 10px;
+        "
+      >
+        <div
+          style="
+            width: 90%;
+            margin: auto;
+            object-fit: cover;
+            height: 70%;
+            border-radius: 10px;
+            padding: 5px;
+          "
+        >
+          <img
+            src="images/clothe.jpg"
+            alt=""
+            style="height: 100%; width: 100%; border-radius: 10px"
+          />
+        </div>
+
+        <div style="height: 5%; width: 90%; margin: auto">Nike</div>
+
+        <div style="height: 5%; width: 90%; margin: auto">
+          T.shirt Blue and White for Summer Seasons
+        </div>
+
+
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            height: 15%;
+            width: 90%;
+            margin: auto;
+          "
+        >
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              width: 80%;
+              height: 100%;
+            "
+          >
+            <span style="font-weight: 800; color: gold; font-size: 20px"
+              >*****</span
+            >
+
+            <span style="font-size: 20px; color: green; font-weight: 600"
+              >$120</span
+            >
+          </div>
+
+          <div
+            style="
+              width: 15%;
+              height: 80%;
+              border: 0.05px solid green;
+              border-radius: 50%;
+              background-color: rgb(201, 252, 247);
+              object-fit: cover;
+              
+            "
+          >
+        <img src="images/cat.png" alt=""
+        
+        style="width: 40%; height: 40%; margin: auto; padding: 15px;"
+        >
+        </div>
+
+
+        </div>
+      </div>
+      <!-- =======================================================first item closing div====================================== -->
+
+
+
+
+
+
+
+
+
+
+      <!-- ===============================================second item opening div -->
+       
+      <div
+        class="item"
+        style="
+          width: 24%;
+          height: 90%;
+          display: flex;
+          flex-direction: column;
+          border: 0.05px solid green;
+          border-radius: 10px;
+        "
+      >
+<!-- =====================================================================================second item opening div -->
+
+
+
+
+  <div
+          style="
+            width: 90%;
+            margin: auto;
+            object-fit: cover;
+            height: 70%;
+            border-radius: 30px;
+          "
+        >
+
+        
+          <img
+            src="images/lady.jpg"
+            alt=""
+            style="height: 100%; width: 100%; border-radius: 10px"
+          />
+
+
+        </div>
+
+
+
+
+
+        <div style="height: 5%; width: 90%; margin: auto">Gucci</div>
+
+
+
+        <div style="height: 20%; width: 90%; margin: auto">
+          cloth white and blue top
+
+        </div>
+ 
+        
+    
+    
+        <!-- ============item card bottom container -->
+<div
+style="display: flex; flex-direction: row; width: 90%; height: 20%; margin: auto;">
+<!-- ===============================item card bottom container -->
+
+
+<div 
+style="width: 80%; height: 100%; display: flex; flex-direction: column;">
+<!-- ====================bottom left area -->
+
+
+<span
+style="color: gold; font-size: 20px; font-weight: 600; ">
+  *****
+</span>
+
+<span
+style="color: green; font-size: 20px; font-weight: 600;">$60</span>
+
+</div>
+
+
+<!-- =====================bottom right cart button -->
+<div
+ style="width: 15%; height: 80%; object-fit: cover; border: 0.05px solid green; background-color:rgb(201, 252, 247); border-radius: 50%;">
+  <img src="images/cat.png" alt=""
+  style="width: 50%; height: 50%; padding: 12px;">
+</div>
+
+</div>
+
+
+         
+        </div>
+     
+    
+    <!-- </div> -->
+    <!-- =========================================second closing div======================================================= -->
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <div
+      class="item"
+      style="
+        width: 24%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        border: 0.05px solid green;
+        border-radius: 10px;
+      "
+    >
+      <div
+        style="
+          width: 90%;
+          margin: auto;
+          object-fit: cover;
+          height: 70%;
+          border-radius: 30px;
+        "
+      >
+        <img
+          src="images/guy.webp"
+          alt=""
+          style="height: 100%; width: 100%; border-radius: 3px"
+        />
+      </div>
+
+      <div style="height: 30%; width: 90%; margin: auto; gap: px">fidin</div>
+
+      <div style="height: 30%; width: 90%; margin: auto">Suit For Men</div>
+
+
+
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          height: 40%;
+          width: 90%;
+          margin: auto;
+          gap: 2px;
+        "
+      >
+        <div
+          style="display: flex; flex-direction: column; width: 70%; height: 80%"
+        >
+          <span style="font-weight: 800; color: gold; font-size: 20px"
+            >*****</span
+          >
+
+          <span style="font-size: 20px; color: blue; font-weight: 600"
+            >$60</span
+          >
+        </div>
+
+
+          <div
+          style="width: 15%; height: 80%; object-fit: cover; border: 0.05px solid green; background-color: aquamarine; flex-direction: column;border-radius: 50%; ">
+
+          <img src="images/cat.png" alt=""
+          style="width: 50%; height: 50%; padding: 12px;">
+          </div>
+          
+       
+        <!-- </div> -->
+      </div>
+    </div>
+
+
+ 
+
+
+
+
+     <div
+      class="item"
+      style="
+        width: 24%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        border: 0.05px solid green;
+        border-radius: 15px;
+      "
+    >
+      <div
+        style="
+          width: 90%;
+          margin: auto;
+          object-fit: cover;
+          height: 70%;
+          border-radius: 30px;
+        "
+      >
+        <img
+          src="images/guy.webp"
+          alt=""
+          style="
+            height: 100%;
+            width: 100%;
+            border-radius: 10px;
+            flex-direction: row;
+          "
+        />
+      </div>
+
+      <div style="height: 30%; width: 90%; margin: auto; gap: px">prada</div>
+
+      <div style="height: 30%; width: 90%; margin: auto">
+        Suit For Men and female
+      </div>
+
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          height: 80%;
+          width: 90%;
+          margin: auto;
+          gap: 30%;
+        "
+      >
+        <div
+          style="display: flex; flex-direction: column; width: 70%; height: 50%"
+        >
+          <span style="font-weight: 800; color: gold; font-size: 20px"
+            >*****</span
+          >
+
+          <span style="font-size: 20px; color: blue; font-weight: 800;"
+            >$600</span
+          >
+
+    </div>
+            
+    <div
+    style="width: 20%; height: 70%; object-fit: cover; border: 0.05px solid green; background-color: aquamarine; flex-direction: column;border-radius: 50%; ">
+
+    <img src="images/cat.png" alt=""
+    style="width: 50%; height: 50%; padding: 12px;">
+    </div>       
+              
+              
+    
+            
+          
+        </div>
+      </div>
+     </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--====================================================================storetop closing div  -->
+    </div>
+<!-- ============================================================storetop closing div  -->
+
+
+
+
+<div class="featured">
+<!-- ==================================opening div for featured product=========================== -->
+
+<h3
+style="text-align: center;">Featured Products</h3>
+
+<div class="featuredtop">
+  <!--============================opening featuredtop tag==============================  -->
+<div
+
+
+style="width: 18%; height: 100%; flex-direction: column; display: flex; background-color: rgb(198, 216, 205); border-radius: 5px; border: 0.o5px solid green;">
+
+
+<img src="images/lady.jpg" alt=""
+style="width: 90%; height: 70%; margin: auto; padding: 5px; object-fit: cover; border-radius: 10px; ">
+
+<h3
+style="color: rgb(6, 63, 49);text-align: center;">
+
+  lady wear avaliable
+
+</h3>
+
+</div>
+
+
+
+
+<div
+style="width: 18%; height: 100%; flex-direction: column; display: flex; background-color: rgb(31, 212, 101); border-radius: 5px; border: 0.o5px solid green;">
+<img src="images/guy.webp" alt=""
+style="width: 90%; height: 70%; margin: auto; padding: 5px; object-fit: cover; border-radius: 10px; ">
+
+<h3
+style="color: rgb(6, 63, 49);text-align: center;">
+
+  suit for men only
+
+</h3>
+
+</div>
+
+<div
+style="width: 18%; height: 100%; flex-direction: column; display: flex; background-color: rgb(83, 76, 190); border-radius: 5px; border: 0.o5px solid green;">
+<img src="images/clothe.jpg" alt=""
+style="width: 90%; height: 70%; margin: auto; padding: 5px; object-fit: cover; border-radius: 10px; ">
+
+<h3
+style="color: rgb(6, 63, 49);text-align: center;">
+
+  men wear
+
+</h3>
+
+</div>
+<div
+style="width: 18%; height: 100%; flex-direction: column; display: flex; background-color: rgb(233, 126, 135); border-radius: 5px; border: 0.o5px solid green;">
+<img src="images/guy.webp" alt=""
+style="width: 90%; height: 70%; margin: auto; padding: 5px; object-fit: cover; border-radius: 10px; ">
+
+<h3
+style="color: rgb(6, 63, 49);text-align: center;">
+
+  suit unisex
+
+</h3>
+
+</div>
+
+<div
+style="width: 18%; height: 100%; flex-direction: column; display: flex; background-color: rgb(20, 63, 180); border-radius: 5px; border: 0.o5px solid green;">
+<img src="images/clothe.jpg" alt=""
+style="width: 90%; height: 70%; margin: auto; padding: 5px; object-fit: cover; border-radius: 10px; ">
+
+<h3
+style="color: rgb(6, 63, 49);text-align: center;">
+
+  nike wears
+
+</h3>
+
+
+</div>
+
+<div
+style="width: 18%; height: 100%; flex-direction: column; display: flex; background-color: rgb(30, 226, 105); border-radius: 5px; border: 0.o5px solid green;">
+<img src="images/lady.jpg" alt=""
+style="width: 90%; height: 70%; margin: auto; padding: 5px; object-fit: cover; border-radius: 10px; ">
+
+<h3
+style="color: rgb(6, 63, 49);text-align: center;">
+
+  lady wear avaliable
+
+</h3>
+
+</div>
+  <!--============================== closing featuredtop tag======================================  -->
+</div>
+
+
+
+
+<div  class="featuredbottom">
+  <!-- ========================opening featuredbottom tag=================================== -->
+
+
+
+<div
+
+
+style="width: 18%; height: 100%; flex-direction: column; display: flex; background-color: aqua; border-radius: 5px; border: 0.05px solid green; gap: 10px;">
+
+
+<img src="images/guy.webp" alt=""
+style="width: 90%; height: 70%; margin: auto; padding: 5px; object-fit: cover; border-radius: 10px;">
+
+<h3
+style="color: white; text-align: center;">
+
+  lady cloth avaliable
+</h3>
+
+</div>
+
+<div
+
+
+style="width: 18%; height: 100%; flex-direction: column; display: flex; background-color: aqua; border-radius: 5px; border: 0.05px solid green;">
+
+
+<img src="images/guy.webp" alt=""
+style="width: 90%; height: 70%; margin: auto; padding: 5px; object-fit: cover; border-radius: 10px;">
+
+<h3
+style="color: white; text-align: center;">
+
+  lady cloth avaliable
+</h3>
+
+</div>
+
+<div
+
+
+style="width: 18%; height: 100%; flex-direction: column; display: flex; background-color: aqua; border-radius: 5px; border: 0.05px solid green;">
+
+
+<img src="images/guy.webp" alt=""
+style="width: 90%; height: 70%; margin: auto; padding: 5px; object-fit: cover; border-radius: 10px;">
+
+<h3
+style="color: white; text-align: center;">
+
+  lady cloth avaliable
+</h3>
+
+</div>
+
+<div
+
+
+style="width: 18%; height: 100%; flex-direction: column; display: flex; background-color: aqua; border-radius: 5px; border: 0.05px solid green;">
+
+
+<img src="images/guy.webp" alt=""
+style="width: 90%; height: 70%; margin: auto; padding: 5px; object-fit: cover; border-radius: 10px;">
+
+<h3
+style="color: white; text-align: center;">
+
+  lady cloth avaliable
+</h3>
+
+</div>
+
+<div
+
+
+style="width: 18%; height: 100%; flex-direction: column; display: flex; background-color: aqua; border-radius: 5px; border: 0.05px solid green;">
+
+
+<img src="images/guy.webp" alt=""
+style="width: 90%; height: 70%; margin: auto; padding: 5px; object-fit: cover; border-radius: 10px;">
+
+<h3
+style="color: white; text-align: center;">
+
+  lady cloth avaliable
+</h3>
+
+</div>
+<div
+
+
+style="width: 18%; height: 100%; flex-direction: column; display: flex; background-color: aqua; border-radius: 5px; border: 0.05px solid green;">
+
+
+<img src="images/guy.webp" alt=""
+style="width: 90%; height: 70%; margin: auto; padding: 5px; object-fit: cover; border-radius: 10px;">
+
+<h3
+style="color: white; text-align: center;">
+
+  lady cloth avaliable
+</h3>
+
+</div>
+
+
+<!-- =================================closing featruredbottom tag====================================== -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<!-- =================================closing div for featured product===================================== -->
+
+
+
+
+
+
+<!-- ===================newsletter section =========================================== -->
+
+<div
+style="width: 100%; height: 15%; background-color: #191970; display: flex; flex-direction: row; margin-top: 8%;"> 
+
+
+
+<!-- ==============Newsletter message area==================== -->
+<div
+style="width: 50%; padding: 20px; margin: 10px auto;">
+
+
+<h1
+style="color: white; font-weight: 600; text-align: center;">
+  sign up for newsletter
+</h1>
+<p
+style="font-size: 16px; color: white; text-align: center;">
+  Get E-mail updates about our lastest shop and <a href=""  style="text-decoration: none; color: rgb(156, 135, 12); font-size: 16px; font-weight: 600; ">special offer</a> 
+</p>
+</div>
+
+
+
+
+
+<!-- ==============Newsletter inputarea==================== -->
+  <div
+  style="width: 50%; padding: 40px; margin: 10px auto; gap: 0%">
+
+    <input type="text" placeholder="your email addres" 
+    style="border: none; padding: 20px 30px; background-color: rgb(41, 40, 40); border-top-left-radius: 5px; border-bottom-left-radius: 5px;">
+    <button
+    style="border: none; padding: 20px 30px; background-color: #29AB87; border-top-right-radius: 5px; border-bottom-right-radius: 5px; color: white;">
+      sign up
+    </button>
+  </div>
+
+
+
+
+
+
+
+
+
+
+<!-- ===============closing div for new section =========================================== -->
+</div>
+
+
+
+<footer
+style="background-color: black; height: 60vh; display: flex; flex-direction: row; width: 100%; margin-top: 4%;">
+
+
+<div
+style="width: 30%; display: flex; flex-direction: column;">
+
+<div
+style="object-fit: cover; width: 8%; height: 5%; padding: 10px;"><img src="images/cat.png" alt=""
+style="width: 100%; height: 100%;"></div>
+<h1>
+  contacts
+</h1>
+
+
+<a href="home/contact.html">contacts forms</a>
+
+<p style="color: white;"><b style="font-weight: 800; font-size: larger;">Address: </b> 44 upper new country california</p>
+
+<p style="color: white;"> <b style="font-weight: 600; font-size: large; gap: 10px;">phone  </b> 08064622758 </p>
+
+<p style="color: white;">  <b> hours</b>  09.00-18.00 MON. sat</p>
+<p style="color: white;"> follow us</p>
+</div>
+
+
+
+
+
+<div
+style="width: 15%; display: flex; flex-direction: column;">
+
+<h1>
+  About Me
+</h1>
+
+<a href="about.html"> about us</a>
+
+<p style="color: white; font-weight: 600;"> ABOUT US</p>
+
+<P style="color: white; font-weight: 600; ;"> DELIVERY POLICY</P>
+
+<P style="color: white; font-weight: 600;"> TERM % CONDTION</P>
+
+<P style="color: white; font-weight: 600;"> CONTANT</P>
+
+</div>
+
+
+
+
+
+<div
+style="width: 15%; display: flex; flex-direction: column;">
+<h1>
+  My Account
+</h1>
+
+<a href="account"> My Account</a>
+
+<p style="color: white; font-weight: 600;">Sign in</p>
+<p style="color: white; font-weight: 600;"> view chart</p>
+<p style="color: white; font-weight: 600;"> My wishlist</p>
+<p style="color: white; font-weight: 600;"> Track My Order</p>
+<p style="color: white; font-weight: 600;"> Heip</p>
+</div>
+
+
+
+
+<div></div>
+
+
+<div></div>
+</footer>
+
+
+
+
+
+    <!-- 
+    <div>
+      <h1 style="color: blue; font-size: xx-large">
+        heading 1 
+        hello world
+      </h1>
+
+      <h2>my name is daniel</h2>
+
+      <h3>i am learning web development</h3>
+
+      <h4>am a igbo boy</h4>
+
+      <h5>am the lastborn</h5>
+
+      <h6>am schooling in lokoja</h6>
+      <span>am a boy</span>
+
+      <span> <b>i like food</b></span>
+    </div>
+  </body>
+</html> -->
+<div id="jsample"
+style="color: white;"></div>
+<script>
+
+var a = 10;
+var b = 20;
+var c = b - a;
+const d = a + c * a - c;
+
+
+let name = "Daniel Okoli";
+
+document.getElementById('jsample').innerHTML = name;
+
+
+</script>
+  </body>
+</html>
